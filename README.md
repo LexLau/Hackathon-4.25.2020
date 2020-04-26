@@ -1,6 +1,6 @@
 # Hackathon 4.25.2020 Education Track
 
-> Author: Alex Lau
+> Authors: Alex Lau, Brandon Gottshall, Dimitri Plaskassovitis
 
 ## Table of Contents
 - [Problem Statement](#Problem-Statement)
@@ -9,10 +9,12 @@
 - [Data Dictionary](#Data-Dictionary)
 
 ## Problem Statement
-The current COVID-19 pandemic has caused huge disruption to health and economies around the world. Our federal and many of our local governments have mandated quanrantine rules. Many people have lost their jobs, most likely their sole source of income. As many of us are staying home and praticing social distancing, this has also become an opportunity to take advantage of learning new skills whether it be for self improvement, or to become competitive in an increasingly digital world. We will attempt to pull data from 3 online course platforms (Coursera, Udemy, EdX) and consolidate to a single data frame to provide a convenient connected platform. Paid courses from these platforms are wonderful, with some sharable certificates, or even complete degrees, however, in the wake of massive unemployment, we will focus on the free ones in this project.
+The current COVID-19 pandemic has caused huge disruption to health and economies around the world. Our federal and many of our local governments have mandated quarantine rules. Many people have lost their jobs, most likely their sole source of income. As many of us are staying home and practicing social distancing, this has also become an opportunity to take advantage of learning new skills whether it be for self improvement, or to become competitive in an increasingly digital world. We will attempt to pull data from 3 online course platforms (Coursera, Udemy, EdX) and consolidate to a single data frame to provide a convenient connected platform. Paid courses from these platforms are wonderful, with some sharable certificates, or even complete degrees, however, in the wake of massive unemployment, we will focus on the free ones in this project.
 
 ## Executive Summary
+We begin our project by importing several Python packages for webscraping like BeautifulSoup, requests, and sleep for ethical scraping. We will also include popular packages like pandas for our data frames, matplotlib.pyplot for plots, numpy for computing. As we inspect each of our three online platforms, we nagivate to a page that lists all of the available courses. Some of these sites do not make it easy to find all free courses, so we will write code to search through the list and identify the free one. We will look for key features mentioned on our data dictionary at the bottom of this page. We can use the F12 button in Google Chrome browser to display the HTML code and navigate through the code to see which sections in the webpage are highlighted. When we get to our desired section, header, or tag, we will notate this in our code. From there we can go on to build a data frame or table that stores all requested data. 
 
+Coursera was a straight forward successful web scrape, however, Udemy blocked our access perhaps recognizing our automation, and EdX did not seem to work 
 
 
 ## Conclusion
