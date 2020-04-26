@@ -26,6 +26,6 @@ We find 170 free courses online on the Coursera platform in a variety of subject
 |**free**|*object*|Value to indicate this course is free, paid courses are removed from our view|
 |**author_organization**|*object*|The partner organization for the course, be it a university, company, organization|
 |**course_type**|*object*|Online classes can result in degrees, certificates, specializations or regular courses|
-|**level**|*object*|Levels are ordinal values ranging from beginner, mixed, intermediate, and advanced)|
+|**level**|*object*|Levels are ordinal values ranging from beginner, mixed, intermediate, and advanced|
 |**ratings**|*float*|Average rating per course are between 0 for least favorable and 5 for most favorable|
 |**reviews**|*integer*|Sum of the review count per course|
