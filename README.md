@@ -16,12 +16,12 @@ We begin our project by importing several Python packages for webscraping like B
 
 We were successful in pulling data fom Coursera, however, Udemy blocked our access perhaps recognizing our automation, and EdX did not seem to work with our code either. We will need to customize our methods for each of these. The duration of our effort was based on the Coursera platform, while still maintaing a single interface to multiple vendor mentality. Taking a conservative approach, we only identified free courses that had a yellow box with the word free next to the title. There are many courses that offered audit only for free, and the certificate at a cost. With more time, we can develop further solutions to capture these as well. After working through the caveats of tags that simply did not exist in some observations, we were able to get a relatively clean data frame of 170 free courses. A small portion of these are not in English, but may include subtitles.
 
-<div align=”center”><img src="./images/coursera_courses_by_level.png" width="400px"></div>
+<img align = "center" src="./images/coursera_courses_by_level.png" width="400px">
 (# of free Coursera courses by level)
 
 During our Explatory Data Analysis, we found that half of the free courses offered by Cousera were at the beginner level, with each level decreasing in quantity of free courses. This is great news for the average person looking to learn a new skill or hobby. It also helps people decide whether they want to devote more time and effort to pursue a field without out of poket costs. With more time we would develop functions to iterate through and pull other features not included in the main view for a more complete list of features for a more robust tool. The next step of this project is to build an interface for people to use. See Brandon's design below:
 
-<div align=”center”><img src="./images/Brandon_skills_hub_design.png" width="900px"></div>
+<img align = "center" src="./images/Brandon_skills_hub_design.png" width="900px">
 (Skills Hub design)
 
 
