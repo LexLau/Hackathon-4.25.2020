@@ -1,4 +1,4 @@
-# Hackathon 4.25.2020 Education Track
+# Skills Hub
 
 > Authors: Alex Lau, Brandon Gottshall, Dimitri Plaskassovitis
 
